@@ -1,0 +1,505 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+*::selection{
+    background-color: yellow;
+}
+header{
+    background-color: white;
+    padding: 29px;
+    margin-top: -33px;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 25px;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    margin-left: 543px;
+    margin-top: 8px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.user1{
+    position: absolute;
+    top: 57px;
+    right: 190px;
+    font-size: 25px;
+    color: black;
+}
+.login{
+    position: absolute;
+    top: 61px;
+    right: 224px;
+    color: red;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.toggle {
+    font-size: 35px;
+    position: absolute;
+    top: 50px;
+    left: 13%;
+    color: black;
+}
+main{
+    display: block;
+}
+.firstpart{
+    width: 987px;
+    height: 400px;
+    border-radius: 16px;
+    left: 13%;
+    right: 190px;
+    margin-top: -20px;
+    overflow: hidden;
+    position: relative;
+}
+.pic1{
+    margin-top: -9px;
+    filter: brightness(54%);
+}
+.welcome{
+    width: 55%;
+    height: 84px;
+    position: absolute;
+    left: 223px;
+    bottom: 0%;
+    display: flex;
+}
+.wel{
+  font-size: 46px;
+  color: #e30a5e;
+  margin-left: 32px;
+  margin-top: 15px;
+  font-family: 'Archivo', sans-serif;
+}
+.clbsoda{
+  font-size: 46px;
+  color: #030000;
+  margin-left: 6px;
+  margin-top: 15px;
+  font-family: 'Archivo', sans-serif;
+}
+.text{
+    height: 120px;
+    width: 73.12%;
+    margin-left: 13%;
+}
+#txt1{
+    padding-top: 50px;
+    font-size: 19px;
+    color: #756F84;
+    font-weight:500;
+}
+button{
+    background-color: #e30a5e;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+#butn{
+    width: 291px;
+    height: 45px;
+    position: relative;
+    left: 13%;
+    top: 6px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #870538;
+}
+.how{
+    width: 73%;
+    height: 300px;
+    position: relative;
+    left: 13%;
+    top: 80px;
+}
+h1{
+    color: black;
+}
+p{
+    color: #756F84;
+}
+#para1{
+    font-size: 19px;
+    padding-top: 21px;
+    margin-top: 2px;
+}
+.para2{
+    font-size: 19px;
+    padding-top: 15px;
+}
+#tag1{
+    color: red;
+    text-decoration: none;
+}
+#tag1:hover{
+    text-decoration: underline;
+}
+.ccc{
+    position: relative;
+    width: 73%;
+    height: 605px;
+    left: 13%;
+    margin-top: 40px;
+    display: flex;
+}
+.blank{
+    width: 35px;
+}
+.col{
+    width: 33.3%;
+    display: block;
+    overflow: hidden;
+    
+}
+.heading{
+    width: 100%;
+    height: 70px;
+}
+.text2{
+    font-size: 29px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.picture1{
+    width: 330px;
+    height: 326px;
+    margin-top: -10px;
+}
+.picture2{
+    width: 321px;
+    height: 325px;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+.picture3{
+    width: 360px;
+    height: 325px;
+    margin-left: -23px;
+    margin-top: -10px;
+}
+.para3{
+    font-size: 19px;
+    background-color:#E0E0E0;
+    line-height: 26px;
+}
+.drinking{
+    width: 218px;
+    height: 52px;
+    position: relative;
+    top: 16px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.new-drink{
+    width: 198px;
+    height: 52px;
+    position: relative;
+    top: 16px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.join{
+    width: 220px;
+    height: 52px;
+    position: relative;
+    top: 16px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 20px;
+}
+.inspiration{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    background-color:#E0E0E0;
+
+} 
+.inspire{
+    font-size: 29px;
+    padding-top: 15px;
+    padding-left: 13%;
+    background-color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.more1{
+    display: flex;
+    background-color: #E0E0E0;
+    width: 100%;
+    height:461px ;
+}
+.Read-more{
+    position: relative;
+    width: 73%;
+    height: 357px;
+    left: 13%;
+    display: flex;
+
+}
+.read{
+    width: 30%;
+    display: block;
+    padding-top: 12px;
+    background-color: #E0E0E0;
+    
+}
+.read2{
+    background-color: white;
+    width: 30%;
+    display: block;
+    padding-top: 12px;
+    border-radius: 9px; 
+    overflow: hidden;
+}
+.more{
+    width: 156px;
+    height: 50px;
+    position: relative;
+    top: 37px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.blank2{
+    width: 31px;
+    background-color: #E0E0E0;
+}
+.alcohol{
+    width: 228px;
+    height: 180px;
+    margin-top: -17px; 
+}
+.celebrate{
+    font-size: 22px;
+    color: #e30a5e;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-left: 25px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 29px;
+}
+.lr-butn{
+    position: relative;
+    width: 102px;
+    height: 45px;
+    left: 74px;
+    bottom: -83%;
+    background-color: transparent;
+}
+.lr{
+    border-radius: 60px;
+    color: white;
+    background-color: #e30a5e;
+    font-size: 34px;
+    width: 45px;
+    height: 45px;
+    margin-left: 4px;
+}
+.lr:hover{
+    background-color: #e30a5e;
+}
+.angle{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+.quotes-section{
+    width: 100%;
+    height: 400px;
+}
+.quotes{
+    width: 73%;
+    position: relative;
+    left: 13%;
+    height: 400px;
+    display: flex;
+}
+.quote1{
+    width: 33%;
+}
+.blank3{
+    width: 45px;
+}
+.left-quote{
+    position: relative;
+    color: #e30a5e;
+    background-color: transparent;
+    font-size: 50px;
+    top: 40px;
+}
+.texts{
+    font-size: 22px;
+    padding-top: 90px;
+    font-family: 'Archivo', sans-serif ;
+}
+.btm-text{
+     font-size: 19px;
+     padding-top: 70px;
+     color: #756F84;
+     font-family: 'Archivo', sans-serif;
+}
+    
+footer{
+    width: 100%;
+    height: 460px;
+    background-color: #465f63;
+    display: block;
+    position: relative;
+}
+.bottom{
+    display: flex;
+    width: 73%;
+    height: 370px;
+    position: absolute;
+    left: 13%;
+    top: 90px;
+    background-color: transparent;
+}
+#btm-pic{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    background-color: transparent;
+}
+#btm-pic:hover{
+    cursor: pointer;
+}
+.left-foot{
+    width: 50%;
+    height: 60%;
+    display: grid;
+    background-color: transparent;
+}
+.image{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.team{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: #465f63;
+}
+.partition-1{
+    background-color: transparent;
+    margin-left: -6px;
+}
+.list{
+    list-style: none;
+    background-color: #465f63;
+    padding: 8px;
+    font-size: 17px;
+}
+.list:hover{
+    text-decoration: underline;
+}
+.aa{
+    background-color: #465f63;
+    text-decoration: none;
+    color: white;
+}
+.list-2{
+    list-style: none;
+    background-color: #465f63;
+    font-size: 17px;
+    padding: 8px;
+}
+.partition-2{
+    background-color: transparent;
+    margin-left: 58px;
+}
+.right-foot{
+    width: 50%;
+    height: 60%;
+    background-color: transparent;
+    display: grid;
+    margin-top: 20px;
+}
+.soc{
+    font-size: 27px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 315px;
+    padding: 6px;
+}
+.soc:hover{
+    cursor: pointer;
+}
+.subscribe{
+    width: 100%;
+    background-color:transparent;
+    height: 200px;
+    display: grid;
+}
+#subscribe{
+     width: 81%;
+     height: 52px;
+     position: relative;
+     margin-left: 98px;
+}
+#subscription{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+}
+#subscribe:hover{
+    text-decoration: underline;
+    background-color: #e30a5e;
+}
+#subscription:hover{
+     text-decoration: underline;
+}
+#parag{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    margin-left: 101px;
+    margin-top: -54px;
+}
+
+.bottom-end{
+    position: absolute;
+    width: 73%;
+    height: 24px;
+    background-color: #465f63;
+    padding-top: 11px;
+    left: 13%;
+    bottom: 32px;
+    border-top: 0.5px solid white;
+}
+.website1{
+    position: absolute;
+    left: 35%;
+    top: 15px;
+    background-color: #465f63;
+    color: white;
+}
+
+
